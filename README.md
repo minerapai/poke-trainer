@@ -2,14 +2,14 @@
 
 플레이어마다 NPC 트레이너 한 명을 키우는 모드입니다. 내 포켓몬을 맡기면 트레이너가 AI로 알아서 배틀하며 성장합니다. 관동 지방을 모두 클리어한 사람만 쓸 수 있습니다.
 
-- 버전: 1.6.0
+- 버전: 1.6.1
 - Minecraft 1.21.1 / Fabric
 - 필요한 모드: Cobblemon, Radical Cobblemon Trainers (rctmod, rctapi), CobbleDollars, Fabric API (Mega Showdown이 있으면 Z기술/다이맥스도 사용)
 - 설치: 서버에만 넣으면 됩니다. 접속하는 사람(클라이언트)은 이 모드가 없어도 됩니다.
 
 ## 다운로드
 
-**[⬇ poke-trainer-1.6.0.jar 다운로드](https://github.com/minerapai/poke-trainer/releases/download/v1.6.0/poke-trainer-1.6.0.jar)**
+**[⬇ poke-trainer-1.6.1.jar 다운로드](https://github.com/minerapai/poke-trainer/releases/download/v1.6.1/poke-trainer-1.6.1.jar)**
 
 받은 jar 파일을 마인크래프트(또는 서버) 폴더의 `mods` 폴더에 넣으면 됩니다. 다른 버전은 [Releases](https://github.com/minerapai/poke-trainer/releases) 에 있습니다.
 

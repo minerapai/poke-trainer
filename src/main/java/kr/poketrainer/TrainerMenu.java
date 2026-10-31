@@ -127,7 +127,7 @@ public final class TrainerMenu extends GenericContainerScreenHandler {
             plain("이름은 처음에 내 이름으로 정해지고,", Formatting.GRAY),
             plain("/트레이너 이름 <이름> 으로 바꿀 수 있습니다.", Formatting.GRAY),
             plain("포켓몬을 맡기면 트레이너가 관장, 사천왕, 챔피언에게", Formatting.GRAY),
-            plain("차례로 도전합니다 (관동 → 성도 → 호연 → 신오).", Formatting.GRAY))));
+            plain("차례로 도전합니다 (관동부터 팔데아까지 9개 지방).", Formatting.GRAY))));
     }
 
     private void fillMain(TrainerData.Record record) {
@@ -226,7 +226,7 @@ public final class TrainerMenu extends GenericContainerScreenHandler {
         inventory.setStack(CHALLENGE, named(new ItemStack(next != null ? Items.DIAMOND_SWORD : Items.NETHER_STAR),
             plain(next != null ? "도전" : "제패 완료", Formatting.RED), challenge));
         inventory.setStack(ROAD, named(new ItemStack(Items.FILLED_MAP), plain("도전의 길", Formatting.AQUA), List.of(
-            plain("관동부터 신오까지 " + Stages.ALL.size() + "명의 상대와 진행 상황", Formatting.GRAY),
+            plain("관동부터 팔데아까지 " + Stages.ALL.size() + "명의 상대와 진행 상황", Formatting.GRAY),
             plain("클릭: 보기", Formatting.GREEN))));
         TrainerData.Gym gym = record.gym;
         inventory.setStack(GYM, named(new ItemStack(Items.LECTERN), plain("내 체육관", Formatting.GOLD), List.of(
