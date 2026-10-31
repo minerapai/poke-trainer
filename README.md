@@ -7,6 +7,12 @@
 - 필요한 모드: Cobblemon, Radical Cobblemon Trainers (rctmod, rctapi), CobbleDollars, Fabric API (Mega Showdown이 있으면 Z기술/다이맥스도 사용)
 - 설치: 서버에만 넣으면 됩니다. 접속하는 사람(클라이언트)은 이 모드가 없어도 됩니다.
 
+## 다운로드
+
+**[⬇ poke-trainer-1.6.0.jar 다운로드](https://github.com/minerapai/poke-trainer/releases/download/v1.6.0/poke-trainer-1.6.0.jar)**
+
+받은 jar 파일을 마인크래프트(또는 서버) 폴더의 `mods` 폴더에 넣으면 됩니다. 다른 버전은 [Releases](https://github.com/minerapai/poke-trainer/releases) 에 있습니다.
+
 ## 기능
 
 - 트레이너 로드: 관동부터 팔데아까지 관장/사천왕/챔피언 117단계에 차례로 도전
