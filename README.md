@@ -13,6 +13,18 @@
 
 받은 jar 파일을 마인크래프트(또는 서버) 폴더의 `mods` 폴더에 넣으면 됩니다. 다른 버전은 [Releases](https://github.com/minerapai/poke-trainer/releases) 에 있습니다.
 
+## 필요한 데이터팩 ⚠
+
+이 모드에는 관장 데이터가 들어 있지 않습니다. 모드에는 117단계의 **도전 순서**만 들어 있고, 각 관장의 팀과 외형은 아래 데이터팩에서 가져옵니다.
+
+| 지방 | 필요한 데이터팩 |
+|---|---|
+| 관동 ~ 신오 | **COBBLEVERSE-RCT-DP** (COBBLEVERSE 모드팩에 들어 있음) |
+| 하나 ~ 팔데아 | **[Unova-Paldea Leaders](https://github.com/minerapai/unova-paldea-leaders)** (따로 설치) |
+
+- COBBLEVERSE-RCT-DP가 없으면 첫 상대(관동 관장)부터 없어서 도전을 시작할 수 없습니다.
+- Unova-Paldea Leaders가 없으면 신오 챔피언까지만 진행되고, 하나 지방 첫 관장에서 더 나아가지 못합니다.
+
 ## 기능
 
 - 트레이너 로드: 관동부터 팔데아까지 관장/사천왕/챔피언 117단계에 차례로 도전
