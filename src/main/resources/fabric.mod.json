@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "poketrainer",
+  "version": "${version}",
+  "name": "Poke Trainer",
+  "description": "Server side: every player raises an NPC trainer with their own pokemon, sends it against the gym leaders, elite four and champions region by region (/trainer, /트레이너), and lets it fight other players' trainers for fun. Clients do not need this mod.",
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": { "main": ["kr.poketrainer.PokeTrainer"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "cobblemon": ">=1.7.0",
+    "rctmod": "*",
+    "rctapi": "*",
+    "cobbledollars": "*"
+  }
+}
